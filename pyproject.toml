@@ -1,0 +1,23 @@
+[project]
+name = "writer-agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ZoneTsuyoshi",email = "5413.6423.87896744.47449663.ti@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "transformers (>=4.51.3,<5.0.0)",
+    "accelerate (>=1.6.0,<2.0.0)",
+    "huggingface-hub (>=0.30.2,<0.31.0)",
+    "langchain (>=0.3.24,<0.4.0)",
+    "notebook (>=7.4.1,<8.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain-community (>=0.3.22,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
